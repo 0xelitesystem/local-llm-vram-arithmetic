@@ -1,8 +1,8 @@
-# LLM VRAM Calculator
+# Local LLM VRAM Arithmetic
 
 Estimate the GPU memory a local LLM needs, with the arithmetic shown, an honest range instead of a fake-precise number, and a fits-or-not verdict for common GPUs.
 
-**Live demo:** https://0xelitesystem.github.io/llm-vram-calculator/
+**Live demo:** https://0xelitesystem.github.io/local-llm-vram-arithmetic/
 
 ## Use
 
@@ -54,8 +54,8 @@ Everything runs in your browser. Nothing is uploaded, there is no analytics, no 
 ## Run locally
 
 ```bash
-git clone https://github.com/0xelitesystem/llm-vram-calculator
-cd llm-vram-calculator
+git clone https://github.com/0xelitesystem/local-llm-vram-arithmetic
+cd local-llm-vram-arithmetic
 ```
 
 Open `index.html` in any modern browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
